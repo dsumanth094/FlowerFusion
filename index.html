@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Flower Website Design Tutorials</title>
+    <!--Font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!--custom css file link-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!--Header section starts-->
+    <header>
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+        <a href="#" class="logo">FlowerFusion<span>.</span></a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#products">Products</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-user"></a>
+
+        </div>
+    </header>
+    <!--Header section ends-->
+
+
+    <div class="main">
+        <!--Home section starts-->
+        <section class="home" id="home">
+            <div class="content">
+                <h3>Fresh Flowers</h3>
+                <span>Natural & beautiful flowers</span>
+                <p>Daisy,Sunflower,Tulip,Rose,Lily,Peony,Hydrangea,Orchid,Gerbera
+                    Daisy,Snapdragon,Carnation,Iris,Dahlia,Lavender,Zinnia</p>
+                <a href="#products" class="btn"> Shop Now</a>
+            </div>
+        </section>
+
+
+        <!--Home section ends-->
+
+
+        <!--About section starts-->
+        <section class="about" id="about">
+            <h1 class="heading"><span>about</span> us</h1>
+            <div class="row">
+                <div class="video-container">
+                    <video src="about-vid.mp4 " loop autoplay muted></video>
+                    <h3>best flowers sellers</h3>
+                </div>
+                <div class="content">
+                    <h3>why choose us?</h3>
+                    <p>Choosing a flower plot from us offers a multitude of benefits that cater to both novice gardeners
+                        and seasoned horticulturalists alike. Firstly, our selection boasts a diverse array of
+                        meticulously curated flower varieties, ensuring that you'll find the perfect blooms to suit your
+                        aesthetic preferences and gardening goals.</p>
+                    <p>Whether you're looking to create a vibrant focal point in your garden or enhance the curb appeal
+                        of your home, our carefully selected flower plots offer an effortless solution for adding
+                        natural beauty to your surroundings.</p>
+                    <a href="#" class="btn">Learn More</a>
+
+                </div>
+            </div>
+        </section>
+
+        <!--About section ends-->
+
+        <!--icons section starts-->
+
+        <section class="icons-container">
+            <div class="icons">
+                <img src="icon-1.png" alt="">
+                <div class="info">
+                    <h3>Free delivery</h3>
+                    <span>on all orders</span>
+                </div>
+            </div>
+
+            <div class="icons">
+                <img src="icon-2.png" alt="">
+                <div class="info">
+                    <h3>10 days returns</h3>
+                    <span>Moneyback guarantee</span>
+                </div>
+            </div>
+
+            <div class="icons">
+                <img src="icon-3.png" alt="">
+                <div class="info">
+                    <h3>offer & gits</h3>
+                    <span>on all orders</span>
+                </div>
+            </div>
+
+            <div class="icons">
+                <img src="icon-4.png" alt="">
+                <div class="info">
+                    <h3>secure paymens</h3>
+                    <span>protected by paypal</span>
+                </div>
+            </div>
+        </section>
+
+        <!--icons section ends-->
+
+        <!--Products section stars-->
+
+        <section class="products" id="products">
+            <h1 class="heading">latest <span>products</span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <span class="discount">-10%</span>
+                    <div class="image">
+                        <img src="img-1.jpg" alt="">
+                        <div class="icons">
+                            <a class="fas fa-heart"></a>
+                            <a  class="cart-btn" onclick="showProductDetails('Flower Pot', '900', 'img-1.jpg')">Buy Now</a>
+                            <a  class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Flower pot</h3>
+                        <div class="price">900 <span>1000</span></div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <span class="discount">-15%</span>
+                    <div class="image">
+                        <img src="img-2.jpg" alt="">
+                        <div class="icons">
+                            <a class="fas fa-heart"></a>
+                            <a  class="cart-btn" onclick="showProductDetails('Flower Pot', '1000', 'img-2.jpg')">Buy Now</a>
+                            <a  class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Flower pot</h3>
+                        <div class="price">1000 <span>1150</span></div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <span class="discount">-5%</span>
+                    <div class="image">
+                        <img src="img-3.jpg" alt="">
+                        <div class="icons">
+                            <a class="fas fa-heart"></a>
+                            <a  class="cart-btn" onclick="showProductDetails('Flower Pot', '1100', 'img-3.jpg')">Buy Now</a>
+                            <a  class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Flower pot</h3>
+                        <div class="price">1100 <span>1150</span></div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <span class="discount">-20%</span>
+                    <div class="image">
+                        <img src="img-4.jpg" alt="">
+                        <div class="icons">
+                            <a class="fas fa-heart"></a>
+                            <a  class="cart-btn" onclick="showProductDetails('Flower Pot', '1200', 'img-4.jpg')">Buy Now</a>
+                            <a  class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Flower pot</h3>
+                        <div class="price">1200 <span>1400</span></div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <span class="discount">-17%</span>
+                    <div class="image">
+                        <img src="img-5.jpg" alt="">
+                        <div class="icons">
+                            <a class="fas fa-heart"></a>
+                            <a  class="cart-btn" onclick="showProductDetails('Flower Pot', '1300', 'img-5.jpg')">Buy Now</a>
+                            <a  class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Flower pot</h3>
+                        <div class="price">1300 <span>1350</span></div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <span class="discount">-3%</span>
+                    <div class="image">
+                        <img src="img-6.png" alt="">
+                        <div class="icons">
+                            <a class="fas fa-heart"></a>
+                            <a  class="cart-btn" onclick="showProductDetails('Flower Pot', '1500', 'img-6.png')">Buy Now</a>
+                            <a  class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Flower pot</h3>
+                        <div class="price">1500 <span>1650</span></div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <span class="discount">-18%</span>
+                    <div class="image">
+                        <img src="img-7.jpg" alt="">
+                        <div class="icons">
+                            <a class="fas fa-heart"></a>
+                            <a  class="cart-btn" onclick="showProductDetails('Flower Pot', '800', 'img-7.jpg')">Buy Now</a>
+                            <a  class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Flower pot</h3>
+                        <div class="price">800 <span>1000</span></div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <span class="discount">-10%</span>
+                    <div class="image">
+                        <img src="img-8.jpg" alt="">
+                        <div class="icons">
+                            <a class="fas fa-heart"></a>
+                            <a  class="cart-btn" onclick="showProductDetails('Flower Pot', '1399', 'img-8.jpg')">Buy Now</a>
+                            <a  class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Flower pot</h3>
+                        <div class="price">1399 <span>1599</span></div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <span class="discount">-5%</span>
+                    <div class="image">
+                        <img src="img-9.jpg" alt="">
+                        <div class="icons">
+                            <a class="fas fa-heart"></a>
+                            <a  class="cart-btn" onclick="showProductDetails('Flower Pot', '1299', 'img-9.jpg')">Buy Now</a>
+                            <a  class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Flower pot</h3>
+                        <div class="price">1299 <span>1399</span></div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <span class="discount">-11%</span>
+                    <div class="image">
+                        <img src="img-10.png" alt="">
+                        <div class="icons">
+                            <a class="fas fa-heart"></a>
+                            <a  class="cart-btn" onclick="showProductDetails('Flower Pot', '999', 'img-10.png')">Buy Now</a>
+                            <a  class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Flower pot</h3>
+                        <div class="price">999 <span>1199</span></div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <span class="discount">-9%</span>
+                    <div class="image">
+                        <img src="img-11.png" alt="">
+                        <div class="icons">
+                            <a class="fas fa-heart"></a>
+                            <a  class="cart-btn" onclick="showProductDetails('Flower Pot', '1199', 'img-11.png')">Buy Now</a>
+                            <a  class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Flower pot</h3>
+                        <div class="price">1199 <span>1299</span></div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <span class="discount">-5%</span>
+                    <div class="image">
+                        <img src="img-12.png" alt="">
+                        <div class="icons">
+                            <a class="fas fa-heart"></a>
+                            <a  class="cart-btn" onclick="showProductDetails('Flower Pot', '1599', 'img-12.png')">Buy Now</a>
+                            <a  class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Flower pot</h3>
+                        <div class="price">1599 <span>1899</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Products section ends-->
+
+
+        <!--review section starts-->
+        <section class="review" id="review">
+            <h1 class="heading">customer's <span>review</span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>The recipient might feel grateful for the thoughtful gesture of receiving a flower plot as a
+                        gift. They may appreciate the time and effort the giver put into selecting and presenting the
+                        plot</p>
+                    <div class="user">
+                        <img src="pic-1.png" alt="">
+                        <div class="user-info">
+                            <h3>Virat Kohli</h3>
+                            <span>Happy Customers</span>
+                        </div>
+                    </div>
+                    <span class="fas fa-quote-right"></span>
+                </div>
+
+                <div class="box">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>If the recipient enjoys gardening or has an appreciation for nature, they may feel excited and
+                        joyful about the prospect of caring for and watching the flowers grow.</p>
+                    <div class="user">
+                        <img src="pic-2.png" alt="">
+                        <div class="user-info">
+                            <h3>Shreyanka Patil</h3>
+                            <span>Happy Customers</span>
+                        </div>
+                    </div>
+                    <span class="fas fa-quote-right"></span>
+                </div>
+
+                <div class="box">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>If the gift of a flower plot comes unexpectedly, the recipient may feel pleasantly surprised and
+                        delighted by the gesture. It could be seen as a unique and thoughtful present that brightens
+                        their day.</p>
+                    <div class="user">
+                        <img src="pic-3.png" alt="">
+                        <div class="user-info">
+                            <h3>M.S Dhoni</h3>
+                            <span>Happy Customers</span>
+                        </div>
+                    </div>
+                    <span class="fas fa-quote-right"></span>
+                </div>
+
+                <div class="box">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Even if the recipient's initial reaction isn't overwhelmingly positive, they may still express
+                        gratitude and politeness towards the giver, recognizing the thoughtfulness behind the gift.</p>
+                    <div class="user">
+                        <img src="pic-4.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Smriti Mandana</h3>
+                            <span>Happy Customers</span>
+                        </div>
+                    </div>
+                    <span class="fas fa-quote-right"></span>
+                </div>
+            </div>
+        </section>
+
+        <!--review section ends-->
+
+
+        <!--contact section starts-->
+        <section class="contact" id="contact">
+            <h1 class="heading"><span>contact</span> us</h1>
+            <div class="row">
+                <form action="">
+                    <input type="text" class="box" placeholder="Name">
+                    <input type="email" class="box" placeholder="Email">
+                    <input type="number" class="box" placeholder="Number">
+                    <textarea name="" class="box" placeholder="Message" id="" cols="30" rows="10"></textarea>
+                    <input type="submit" value="send massage" class="btn">
+                </form>
+                <div class="image">
+                    <img src="contact-img.svg" alt="">
+                </div>
+            </div>
+        </section>
+        <!--footer section starts-->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">about</a>
+                <a href="#">products</a>
+                <a href="#">review</a>
+                <a href="#">contact</a>
+            </div>
+            <div class="box">
+                <h3>Extra links</h3>
+                <a href="#">my account</a>
+                <a href="#">my order</a>
+                <a href="#">my favorites</a>
+            </div>
+            <div class="box">
+                <h3>Locations</h3>
+                <a href="#">india</a>
+                <a href="#">USA</a>
+                <a href="#">France</a>
+                <a href="#">Japan</a>
+                <a href="#">Ukraine</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#">8309665094</a>
+                <a href="#">dsumanth094@gmail.com</a>
+                <a href="#">Kadapa, INDIA - 516503</a>
+                <img src="payment.png" alt="">
+
+            </div>
+        </div>
+    </section>
+    </div>
+
+    <!-- Modal for displaying product details -->
+    <div id="productModal" class="modal">
+        <div id="productModalContent" class="modal-content">
+            <!-- Product details will be dynamically populated here -->
+        </div>
+    </div>
+
+
+    <!-- Add this script to your HTML file -->
+    <script>
+        // Function to show the product details modal
+        function showProductDetails(name, price, image) {
+            // Get modal elements
+            var page = document.querySelector(".main");
+            var modal = document.getElementById("productModal");
+            var modalContent = document.getElementById("productModalContent");
+            page.style.display="none";
+
+            // Populate product details
+            modalContent.innerHTML = `
+            <span class="close" onclick="hideProductDetails()">&times;</span>
+
+            <h2>${name}</h2>
+            <img src="${image}" alt="Product Image">
+            <p>Price: ₹${price}</p>
+            <!-- Add more product details here -->
+            <button onclick="placeOrder()">Place Order</button>
+        `;
+
+            // Show modal
+            modal.style.display = "block";
+        }
+
+        // Function to hide the product details modal
+        function hideProductDetails() {
+            var modal = document.getElementById("productModal");
+            modal.style.display = "none";
+            var page = document.querySelector(".main");
+            page.style.display="block";
+        }
+
+        // Function to place order (you can implement your logic here)
+        function placeOrder() {
+            alert("Your order has been placed!");
+            hideProductDetails(); // Hide modal after placing order
+        }
+    </script>
+
+    <div class="credit">
+        &copy; Created by <span> Dindukurthi Sumanth </span> All Right Reserved.
+    </div>
+
+    <!--footer section ends-->
+
+
+
+
+
+
+</body>
+
+</html>
